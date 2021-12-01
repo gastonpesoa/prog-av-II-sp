@@ -57,7 +57,7 @@ const Login = () => {
     return (
         <div className="container">
             <div className="columns">
-                <div className="column">
+                <div className="column is-half is-offset-one-quarter">
                     <section className="section">
                         <Titulo>INGRESO DE USUARIO</Titulo>
                         <form onSubmit={handledSubmit}>

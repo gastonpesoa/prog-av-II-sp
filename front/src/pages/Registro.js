@@ -56,7 +56,7 @@ const Registro = () => {
     return (
         <div className="container">
             <div className="columns">
-                <div className="column">
+                <div className="column is-half is-offset-one-quarter">
                     <section className="section">
                         <Titulo>REGISTRO DE USUARIO</Titulo>
                         <form onSubmit={handledSubmit}>

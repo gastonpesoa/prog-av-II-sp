@@ -107,7 +107,7 @@ const Crud = () => {
 
     return (
         <div className="columns">
-            <div className="column">
+            <div className="column is-two-thirds">
                 <section className="section">
                     {
                         loading
@@ -121,7 +121,7 @@ const Crud = () => {
                 </section>
 
             </div>
-            <div className="column">
+            <div className="column is-one-third">
                 <section className="section">
                     <Form
                         crearMascota={crearMascota}
